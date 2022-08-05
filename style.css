@@ -5,12 +5,17 @@
 
 .menu{
     background-color: #718387;
-    padding-left: 100px;
+    padding: 10px;
 }
 
 .link{
     color: white;
     text-decoration: none;
+    margin: 10px;
+}
+
+.git{
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
 }
 
 .link:hover{
@@ -20,5 +25,22 @@
 
 .cabecalho{
     background-color: #98336c;
-    background: linear-gradient(90deg, #486288 0%, #98336c 100%);
+    background: linear-gradient(90deg, #486288b7 0%, #98336ca6 100%), url("computer.jpg");
+    text-align: center;
+}
+
+.titulo{
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.foto{
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 2px solid #486288;
+}
+
+.redes > a > img{
+    padding: 20px;
 }

@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+::selection {
+    background-color: blueviolet;
+    color: white;
+}
+
+.menu {
+    background-color: #718387;
+    padding: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.link:hover {
+    color: #718387;
+    text-decoration: underline;
+}
+
+.cabecalho {
+    background-color: #98336c;
+    background: linear-gradient(90deg, #486288b7 0%, #98336ca6 100%), url("../images/computer.jpg");
+    text-align: center;
+}
+
+.titulo {
+    color: #ffffff;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.foto {
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 50%;
+    border: 2px solid #486288;
+}
+
+.redes>a>img {
+    padding: 20px;
+}
+
+.subtitulo {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.texto {
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.fotos {
+    border: solid #98336c 1px;
+    margin-left: 10px;
+}
+
+.rodape {
+    padding: 20px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #718387;
+    color: white;
+}
